@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>media-player</title>
+
     <!-- add the font family of your choice -->
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
@@ -30,6 +31,12 @@
     <main class="container">
       <!-- Media Player Section -->
       <div class="media-player">
+        <!-- Added fast forward and rewind buttons -->
+        <button class="control-button" onclick="fastForward()">
+          Fast Forward 10s
+        </button>
+        <button class="control-button" onclick="rewind()">Rewind 10s</button>
+
         <video id="custom-video-player" controls>
           <source
             src="https://thelongesthumstore.sgp1.cdn.digitaloceanspaces.com/IM-2250/erokia_ambient-wave-56-msfxp7-78.mp3"
@@ -46,6 +53,7 @@
               height="24"
             />
           </button>
+
           <!-- add the missing buttons or functionality here -->
           <div class="progress-bar">
             <span id="progress-bar-fill"></span>

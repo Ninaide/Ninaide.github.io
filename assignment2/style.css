@@ -1,5 +1,5 @@
 :root {
-  --primary-bg-color: #f4f4f4;
+  --primary-bg-color: #35c9b0;
   --text-color: #333;
   --main-bg-color: #333;
   --main-text-color: #fff;
@@ -97,7 +97,7 @@ nav a {
 .progress-bar {
   width: 100%;
   height: 10px;
-  background-color: #e92929;
+  background-color: #b41f1f;
   margin-top: 10px;
   overflow: hidden;
 }
@@ -117,4 +117,34 @@ footer {
   text-align: center;
   padding: 10px 0;
   width: 100%;
+}
+
+.control-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.control-button:hover {
+  background-color: #0056b3;
+}
+
+.link-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-button:hover {
+  background-color: #0056b3;
 }
