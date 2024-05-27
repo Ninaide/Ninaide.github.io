@@ -1,11 +1,16 @@
 :root {
-  --primary-bg-color: #35c9b0;
+  --primary-bg-color: #78ddb3;
   --text-color: #333;
   --main-bg-color: #333;
   --main-text-color: #fff;
-  --main-btn-bg-color: #938989;
+  --main-btn-bg-color: #b41f1f;
 }
 
+/* Changed button colour to have synergy with the red buttons, letting the user know what is 
+clickable */
+
+/* Changed background colour to create a calming sense to the user, allowing them, to explore the available options 
+without becoming overwhelmed by harsh background colours. */
 body,
 h1,
 p,
@@ -102,6 +107,9 @@ nav a {
   overflow: hidden;
 }
 
+/* Made the progress bar red as it is a familiar colour across video progress bars and should remove 
+confusion from the user */
+
 .progress-bar span {
   display: block;
   height: 100%;
@@ -123,21 +131,21 @@ footer {
   padding: 5px 10px;
   font-size: 16px;
   color: white;
-  background-color: #007bff;
+  background-color: #b41f1f;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 .control-button:hover {
-  background-color: #0056b3;
+  background-color: #996565;
 }
 
 .link-button {
   padding: 10px 20px;
   font-size: 16px;
   color: white;
-  background-color: #007bff;
+  background-color: #996565;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -146,5 +154,8 @@ footer {
 }
 
 .link-button:hover {
-  background-color: #0056b3;
+  background-color: #996565;
 }
+
+/* Made the buttons red, allowing them to pop out as important features. Hovering over them turns them a lighter shade 
+of red. This informs the user that they are correctly seclecting a button.  */
