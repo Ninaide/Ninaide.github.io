@@ -33,3 +33,5 @@ function rewind() {
     video.currentTime = 0;
   }
 }
+
+// Above are the functions for the "Fast Forward" and "Rewind" features

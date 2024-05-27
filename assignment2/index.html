@@ -13,16 +13,26 @@
   <body>
     <!-- Header Section -->
     <header>
+      <!-- This will act as the main menu/main seclection screen that allows a user to listen to a selected piece 
+      of music while also offerning additional menu options.  -->
       <h1>Sound Selection</h1>
     </header>
 
     <!-- Navigation Section -->
     <nav>
       <ul>
+        <!-- The home selection button should just link back to itself as the aim is to have the "Sound Selection" screen as 
+        the home.  -->
         <li><a href="#">Home</a></li>
-        <li><a href="#">Categories</a></li>
+        <!-- The "Categories" button will link to sounds that the user will have access to browse. These sounds will be seperated into
+        different genres/categories such as "Relaxation" or "Experimental" sounds. -->
+        <li><a href="categories.html">Categories</a></li>
+        <!-- The "Artists" button will link to the artists that have created the sounds, allowing the user to see which sounds from the artists 
+        they enjoy. -->
         <li><a href="#">Artists</a></li>
-        <li><a href="#">Saved Sounds</a></li>
+
+        <!-- Added a saved sounds/library section  -->
+        <li><a href="savedsounds.html">Saved Sounds</a></li>
         <!-- Add or remove navigation items as needed -->
       </ul>
     </nav>
@@ -32,6 +42,10 @@
       <!-- Media Player Section -->
       <div class="media-player">
         <!-- Added fast forward and rewind buttons -->
+        <!-- The main goal for additive features is the inclusion of a "Fast Forward" button and "Rewind" button. Ideally, having the ability to 
+        either fast forward or rewind by as much time as the user wants would be ideal. However, doing either action by a set time amount, 10 seconds 
+        in this instance, is the most successful. Currently, these buttons are coloured differently, blue, to emphasize their importance as additional 
+      features.  -->
         <button class="control-button" onclick="fastForward()">
           Fast Forward 10s
         </button>
@@ -62,6 +76,9 @@
       </div>
 
       <!-- Additional Content Section -->
+
+      <!-- The content in this section aims to recommend users with sounds that are similar to what is being played via the main audio 
+      above.  -->
       <section>
         <h2>Sound Recommendations</h2>
         <p>Here are additional sounds you may like:</p>
