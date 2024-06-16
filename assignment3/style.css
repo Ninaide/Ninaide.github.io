@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; /* Align items to the right */
+  height: 100vh;
+  margin: 0;
+  padding-right: 20px; /* Optional: add padding for some space from the right edge */
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Margin for vertical spacing */
+  color: #fff;
+  font-size: 1.5em;
+  border-radius: 8px;
+}
+
+#box1 {
+  background-color: #ff6347; /* Tomato */
+}
+
+#box2 {
+  background-color: #4682b4; /* SteelBlue */
+}
+
+#box3 {
+  background-color: #32cd32; /* LimeGreen */
+}
+
+#box4 {
+  background-color: #ffa500; /* Orange */
+}
+
+#box5 {
+  background-color: #6a5acd; /* SlateBlue */
+}
