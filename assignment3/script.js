@@ -1,3 +1,4 @@
+// Below shows the code for the drag and drop function.
 document.addEventListener("DOMContentLoaded", (event) => {
   const images = document.querySelectorAll(".draggable");
   const boxes = document.querySelectorAll(".box");

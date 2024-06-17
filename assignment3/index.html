@@ -9,15 +9,37 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+
+    <!-- I have begun the project by creating 5 different animal images. Each image is draggable and can be placed 
+     onto each box on the right side of the screen. Every animal image was drawn up by me to avoid anyh liscencing 
+     or copyright issues. -->
+
+     <!-- The crude and cartoonish style of each animal is intended to give the idea that this is 
+      primarily for a younger demographic. The aim of this style is to give off a friendly demeanour, resulting
+      in the audience being more engaged with the activity.-->
     <div class="container">
+      <!-- To avoid the most confusion with my code, I have grouped the animal images, seen on the left side
+       of the screen, into an image container so that styling them with a style sheet (using CSS) is easier. They
+       are seperated from the boxes on the right side of the screen to avoid cluttering and confusion with the 
+       activity.-->
       <div class="image-container">
+        <!-- Each image icon uses a png format making them easy to work with. While they do contain more data
+         than using a jpg format, the image size is relatively small and won't affect how the website runs 
+         in a vastely negative way. -->
         <img src="Dog.png" alt="Image 1" class="draggable" id="dog" />
         <img src="Cat.png" alt="Image 2" class="draggable" id="cat" />
         <img src="Bird.png" alt="Image 3" class="draggable" id="bird" />
         <img src="Frog.png" alt="Image 4" class="draggable" id="frog" />
         <img src="Goose.png" alt="Image 5" class="draggable" id="goose" />
+        <!-- Each image was classed as draggable and given respective ids based on the animal type
+         (e.g. id="dog" for the dog).-->
       </div>
     </div>
+
+    <!-- Below is the code that visualises the audio portion of the website. Above every box is a button
+     that, when clicked, emits an audio that one of the animals (on the left side of the screen) would make.
+     It is then up to the user to identify the correct sound and drag the corresponding image to the correct 
+     box.-->
     <div class="box-container">
       <div class="box-group">
           <button class="sound-button" id="sound1">Sound 1</button>
@@ -42,5 +64,7 @@
   </div>
 </div>
 <script src="script.js"></script>
+<!-- The java script link is located here as it made the most sense to have it next to the function, 
+ the sound button section.-->
 </body>
 </html>

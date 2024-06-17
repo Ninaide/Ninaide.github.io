@@ -9,7 +9,7 @@ html {
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; /* Align items to the top */
+  align-items: flex-start;
   height: 1vh;
   padding: 20px;
 }
@@ -22,30 +22,30 @@ html {
 }
 
 .image-container {
-  justify-content: flex-start; /* Align images to the top */
+  justify-content: flex-start;
 }
 
 .image-container img {
   width: 100px;
   height: auto;
-  margin: 10px 0; /* Margin for vertical spacing */
+  margin: 10px 0;
 }
 
 .box-container {
-  justify-content: flex-start; /* Center the boxes vertically */
-  align-items: flex-end; /* Align the boxes to the right */
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .box {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 0; /* Margin for vertical spacing */
+  margin: 10px 0;
   color: #fff;
   font-size: 1.5em;
-  border-radius: 8px;
+  border-radius: 4-px;
 }
 
 #box1 {
