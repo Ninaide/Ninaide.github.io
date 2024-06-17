@@ -1,12 +1,38 @@
-body {
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end; /* Align items to the right */
-  height: 100vh;
-  margin: 0;
-  padding-right: 20px; /* Optional: add padding for some space from the right edge */
-  font-family: Arial, sans-serif;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.image-container img {
+  width: 100px;
+  height: auto;
+  margin: 10px 0; /* Margin for vertical spacing */
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 10px;
 }
 
 .box {
