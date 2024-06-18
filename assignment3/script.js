@@ -35,10 +35,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
     draggable.style.display = "block";
     e.target.appendChild(draggable);
   }
-
-  function playSound(e) {
-    const soundId = e.target.id;
-    const audio = new Audio(`sounds/${soundId}.mp3`);
-    audio.play();
-  }
 });

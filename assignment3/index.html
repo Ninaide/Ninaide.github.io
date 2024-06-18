@@ -40,14 +40,23 @@
      that, when clicked, emits an audio that one of the animals (on the left side of the screen) would make.
      It is then up to the user to identify the correct sound and drag the corresponding image to the correct 
      box.-->
+
+     <!-- Initially, the plan was to code buttons that would be labelled 'Sound 1' through to 'Sound 5' above each 
+      of the coloured boxes. However, I was unable to get my code to properly funcion and allow for the audio to 
+      be played on click of the button. As such, I used source tags instead that would use a 'sounds' directory 
+      (where all of the animal sounds were located) and have them set up as audio players. While this isn't as ideal, 
+      it does work and ultimately gets the idea across despite sacrificing aesthetic over the function. -->
     <div class="box-container">
       <audio controls>
+
+        <!-- Below, where some of the code is hidde, is what the base code would have looked like if I was able
+         to get the previous idea using buttons to work.-->
         <source
           src="sounds/Frog Noise.mp3"
         />
       </audio>
       <div class="box-group">
-          <button class="sound-button" id="sound1">Sound 1</button>
+          <!-- <button class="sound-button" id="sound1">Sound 1</button> -->
           <div class="box" id="box1"></div>
       </div>
       <audio controls>
@@ -56,7 +65,7 @@
         />
       </audio>
       <div class="box-group">
-          <button class="sound-button" id="sound2">Sound 2</button>
+          <!-- <button class="sound-button" id="sound2">Sound 2</button> -->
           <div class="box" id="box2"></div>
       </div>
       <audio controls>
@@ -65,7 +74,7 @@
         />
       </audio>
       <div class="box-group">
-          <button class="sound-button" id="sound3">Sound 3</button>
+          <!-- <button class="sound-button" id="sound3">Sound 3</button> -->
           <div class="box" id="box3"></div>
       </div>
       <audio controls>
@@ -74,7 +83,7 @@
         />
       </audio>
       <div class="box-group">
-          <button class="sound-button" id="sound4">Sound 4</button>
+          <!-- <button class="sound-button" id="sound4">Sound 4</button> -->
           <div class="box" id="box4"></div>
       </div>
       <audio controls>
@@ -83,7 +92,7 @@
         />
       </audio>
       <div class="box-group">
-          <button class="sound-button" id="sound5">Sound 5</button>
+          <!-- <button class="sound-button" id="sound5">Sound 5</button> -->
           <div class="box" id="box5"></div>
       </div>
   </div>
