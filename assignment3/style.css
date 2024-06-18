@@ -3,6 +3,10 @@ as I felt it would best match the square boarders for the animal images. The
 design aims to make the task feel more obvious at a glance, ensuring that the
 user doesn't overthink or overcomplicate the activity.  */
 
+/* My main inspiration for the design came from a website called CoughDrop (https://app.mycoughdrop.com/melissad/google-animal-sounds_1). They utilise simple 
+animal images that, when pressed, make the appropriate animal sound. Rather than do the same, I opted for using 
+these simple design choices and having the images be draggable rather than stationary. */
+
 html {
   margin: 0;
   padding: 0;
