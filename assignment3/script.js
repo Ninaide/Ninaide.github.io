@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", (event) => {
   const images = document.querySelectorAll(".draggable");
   const boxes = document.querySelectorAll(".box");
+  const soundButtons = document.querySelectorAll(".sound-button");
 
   images.forEach((image) => {
     image.addEventListener("dragstart", dragStart);
@@ -10,6 +11,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
   boxes.forEach((box) => {
     box.addEventListener("dragover", dragOver);
     box.addEventListener("drop", drop);
+  });
+
+  soundButtons.forEach((button) => {
+    button.addEventListener("click", playSound);
   });
 
   function dragStart(e) {
@@ -29,5 +34,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     const draggable = document.getElementById(id);
     draggable.style.display = "block";
     e.target.appendChild(draggable);
+  }
+
+  function playSound(e) {
+    const soundId = e.target.id;
+    const audio = new Audio(`sounds/${soundId}.mp3`);
+    audio.play();
   }
 });
