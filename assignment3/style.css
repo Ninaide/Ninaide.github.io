@@ -1,11 +1,30 @@
-body,
+/* For the style of each of the coloured boxes, I opted for a simple square design
+as I felt it would best match the square boarders for the animal images. The
+design aims to make the task feel more obvious at a glance, ensuring that the
+user doesn't overthink or overcomplicate the activity.  */
+
 html {
   margin: 0;
   padding: 0;
   height: 100%;
   font-family: Arial, sans-serif;
+  /* For the background of the page, I opted to go for a washed out look, using a very 
+  light green for the colour of choice. I wanted to use a colour rather than a neutral such
+  as black or white as I felt that having a neutral colour for the background would feel less playful
+  in design. Having any sort of colour adds a more playful and cheery atmosphere on the page. Having
+  a washed out colour also helps by not being overwhelming or distracting to the user and doesn't hide 
+  any of the important coloured boxes on the right side of the screen. */
+  background-color: rgb(167, 216, 173);
 }
 
+/* For the sizing of the animal images and the coloured boxes, I aimed to make them relatively equal sizing
+ so that the overall design isn't jaring. This meant experimenting with width and height, mainly for 
+ the animal images, until I was satisfied with the outcome. While I am happy with how the sizing turned out,
+ unfortunately since not all of the animal images are an equal square shape, it doesn't perfectly fit over
+ the coloured squares. While I could make the boxes more accurately match the shape of the animal
+ images, I feel as though that would take away some of the purpose of the activity. Having the coloured 
+ boxes match the shapes of the animals would negate the purpose of having sound as a user would be able
+ to match the animals purely based on the coloured box shape, which is not what I want to go*/
 .container {
   display: flex;
   justify-content: space-between;
@@ -48,22 +67,29 @@ html {
   border-radius: 4-px;
 }
 
+/* For the colour choises, I opted to go with bright and bold choises. The 
+aim was to give the activity more life and expression, hence using these 
+particular colours seemed like the best option. The colours used also match the correct animal placement.
+Initially, I didn't want to have the boxes coloured that hinted towards the correct animal. However,
+I decided that I would include it to give the coloured boxes more meaning rather than having them 
+be simple placeholders for animal images.      */
+
 #box1 {
-  background-color: #ff6347; /* Tomato */
+  background-color: #3cc437; /* Green */
 }
 
 #box2 {
-  background-color: #4682b4; /* SteelBlue */
+  background-color: #b9c8d4; /* Grey */
 }
 
 #box3 {
-  background-color: #32cd32; /* LimeGreen */
+  background-color: #df7b39; /* Orange */
 }
 
 #box4 {
-  background-color: #ffa500; /* Orange */
+  background-color: #2790f1; /* Blue */
 }
 
 #box5 {
-  background-color: #6a5acd; /* SlateBlue */
+  background-color: #8a6752; /* Brown */
 }

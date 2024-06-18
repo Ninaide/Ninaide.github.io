@@ -1,4 +1,8 @@
-// Below shows the code for the drag and drop function.
+// Below shows the code for the drag and drop function. The code allows for any animal image on the left side
+// of the screen to be dragged onto any coloured box on the right side.
+// However, if the image doesn't get dragged onto a coloured box (dragged anywhwere else on the screen),
+// the image disappears and the page needs to be reset. I have no clue why this happens, but the code does
+// allow for the icons to be placed on the coloured boxes so I would call that a success.
 document.addEventListener("DOMContentLoaded", (event) => {
   const images = document.querySelectorAll(".draggable");
   const boxes = document.querySelectorAll(".box");
